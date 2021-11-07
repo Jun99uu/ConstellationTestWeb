@@ -1,0 +1,76 @@
+#result{
+  display: none;
+  background-color: whitesmoke;
+  width: 80%;
+  text-align : center;
+  border-radius: 20px;
+}
+
+#shareResult{
+  background-color: whitesmoke;
+  width: 80%;
+  text-align : center;
+  border-radius: 20px;
+}
+
+.resultname{
+  font-size: 26px;
+}
+
+.resultDesc{
+  font-size: 21px;
+}
+
+.resultcompany{
+  background-color: #C4C4C4;
+  border-radius: 15px;
+}
+
+.resultComp{
+  font-size:26px;
+  font-weight: bold;
+}
+
+.resultInfo{
+  font-size: 21px;
+  color: #3B3B3B;
+}
+
+.insta{
+  color: white;
+  background-color: #da2e80;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.insta:hover, .insta:focus {
+  background-color: #8c3ac3;
+  color: white;
+}
+
+.gohome{
+  color: white;
+  background-color: #da2e80;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.gohome:hover, .gohome:focus {
+  background-color: #8c3ac3;
+  color: white;
+}
+
+.save{
+  color : white;
+  background-color: #5C7AEA;
+  font-size:20px;
+  border:0px;
+  border-radius: 10px;
+}
+
+.save:hover, .save:focus {
+  background-color: #3D56B2;
+  color: white;
+}

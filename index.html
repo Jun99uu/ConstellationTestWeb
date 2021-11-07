@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="SupportersJK">
+  <meta name="keywords" content="별자리 유형">
+  <meta name="description" content="별자리 유형">
+
+  <meta property="og:url" content="https://aiyjhubwithconstellation.netlify.app" />
+  <meta property="og:title" content="나의 별자리 유형" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/share.png" />
+  <meta property="og:description" content="AI 양재 허브와 알아보는 나의 별자리 유형" />
+
+  <link rel="shortcut icon" href="img/hearticon.png">
+  <link rel="apple-touch-icon-precomposed" href="img/hearticon.png" />
+
+  <title>AI 양재 허브와 알아보는 나의 별자리 유형</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./css/default.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/qna.css">
+  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/result.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <script>
+    Kakao.init('e6cd44ef111f685653eb9e7ca60cf560');
+    Kakao.isInitialized();
+  </script>
+
+</head>
+
+<body>
+  <div class="container">
+    <section id="main" class="mx-auto my-5 pb-5 pt-5 px-3">
+      <h2>별자리로 알아보는,</h2>
+      <h1><span style="background-color : #FFE699">당신은 <span style="color:#FF5D5D;">어떤 사람</span>인가요?</span></h1>
+      <p class="hash" style="margin-top:30px"><span style="color:#283387;">#AI_양재_허브와</span> <span style="color:#454545">#함께하는<br>#어떤사람 #테스트</span></p>
+      <div class="col-lg-6 col-md-8 col-sm-8 col-8 mx-auto">
+        <img src="./img/heart.gif" alt="mainImage" class="img-fluid">
+      </div>
+      <p class="content">
+        나는 어디에서 와서, 어디로 가는가?<br>나는 누구인가?<br><span style="color:#283387">AI 양재 허브와</span> 함께 만나보세요!
+      </p>
+      <a href="https://blog.naver.com/igun0423/222561131892" style="font-size:23px">★내 별자리 유형 알아보고 바나나우유 먹자!★</a><br>
+      <button type="button" class="btn btn-outline-danger mt-3" onclick="js:begin()" style="font-size:30px;">시작하기</button>
+
+      <table class="mx-auto" style="margin-top:50px">
+        <tr>
+          <td><img src="./img/ai_hub_logo.png" alt="AI양재허브로고" class="img-fluid" width="110" style="padding:10px"></td>
+          <td><img src="./img/kukmin.png" alt="국민대로고" class="img-fluid" width="130" style="padding:10px"></td>
+          <td><img src="./img/seoul.png" alt="서울시로고" class="img-fluid" width="130"></td>
+        </tr>
+      </table>
+      <h5 style="margin-top:30px; background-color:#848484; color:white">Bridge to Innovation<br>AI 양재 허브 대학생 서포터즈 이준규</h5>
+    </section>
+
+    <section id="qna">
+      <div class="status mx-auto mt-5">
+        <div class="statusBar">
+
+        </div>
+      </div>
+      <div class="qBox my-5 py-3 mx-auto">
+
+      </div>
+      <div class="answerBox ">
+
+      </div>
+    </section>
+
+    <section id="result" class="mx-auto my-5 pb-5 pt-5 px-3">
+      <h1><b>당신은 이런사람이군요,</b></h1>
+      <div class="resultname">
+
+      </div>
+      <div id="resultImg" class="my-7 mt-3 mb-2 col-lg-6 col-md-8 col-sm-8 col-8 mx-auto">
+      </div>
+      <div class="resultDesc" style="margin-top:30px">
+
+      </div>
+      <h1 class="mt-5">당신과 같은 유형의 기업은…</h1>
+      <div class="resultComp">
+
+      </div>
+      <div class="resultInfo">
+
+      </div>
+      <a class="resultCompLink" href="#" onclick="linkmove();" style="font-size:20px">이곳이 궁금하면 클릭!</a>
+      <br>
+      <button type="button" class="insta mt-5 py-2 px-3" onclick="js:setShare()">공유하기</button>
+
+
+    </section>
+    <script src="./js/start.js" charset="utf-8"></script>
+    <script src="./js/data.js" charset="utf-8"></script>
+    <script src="./js/share.js" charset="utf-8"></script>
+  </div>
+</body>
+
+</html>
